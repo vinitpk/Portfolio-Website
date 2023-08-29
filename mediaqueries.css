@@ -1,0 +1,160 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 65vh;
+    margin-bottom: 6rem;
+  }
+
+  .about-containers {
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  #experience {
+    height: fit-content;
+    margin-bottom: 6rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+    height: 15vh;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #about {
+    margin-bottom: 2rem;
+  }
+  #experience {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+    height: 84vh;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    
+    height: auto;
+    width: auto;
+  }
+  nav {
+    height: 13vh;
+  }
+  #contact {
+    height: 35vh;
+  }
+
+  #profile {
+    height: fit-content;
+    margin-bottom: 0;
+  }
+
+  #socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    gap: 1rem;
+  }
+  .hamburger-icon {
+    height: 23px;
+    width: 25px;
+  }
+
+  .menu-links a {
+    font-size: 1rem;
+  }
+
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 1;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+
+  /* Modification */
+  #about,
+  .about-containers {
+    gap: 1rem;
+    flex-direction: column;
+  }
+  #experience {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .experience-details-container {
+    margin-top: 1rem;
+  }
+  #contact {
+    padding-top: 0;
+  }
+}
+
+/* Dark Mode */
